@@ -40,15 +40,15 @@ p{
    position: absolute;
    top: 24%;
   }
-  @media only screen and (max-height :600px){
+@media only screen and (min-height :1600px ){
     .logo{
       top: 35%;
     }
     .wheel{
-      top: 75%;
+      top: 50%;
     }
     p{
-      top: 65%;
+      top: 45%;
     }
   }
   *{
