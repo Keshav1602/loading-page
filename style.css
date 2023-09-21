@@ -1,0 +1,40 @@
+.inline{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    flex-direction: column;
+}
+body{
+    background-image: url(./5082238.jpg);
+}
+p{
+    position: absolute;
+    z-index: 1;
+    top: 47%;
+}
+.wheel{
+    border-radius: 50%;
+    border: solid rgb(92, 92, 92);
+    border-bottom: solid black;
+    animation: 1s linear infinite load;
+    position: absolute;
+    transform: translate3d(-50%,-50%,0);
+    width: 30px;
+    top: 60%;
+    left: 50%;
+    height: 30px;
+    will-change: transform;
+}
+@keyframes load {
+    0% {
+      transform: translate3d(-50%, -50%, 0) rotate(0deg);
+    }
+    100% {
+      transform: translate3d(-50%, -50%, 0) rotate(360deg);
+    }
+  }
+.logo{
+   position: absolute;
+   top: 24%;
+  }
