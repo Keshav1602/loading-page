@@ -2,11 +2,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 90vh;
+    height: 100vh;
     flex-direction: column;
 }
 body{
     background-image: url(./5082238.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 p{
     position: absolute;
@@ -37,4 +39,19 @@ p{
 .logo{
    position: absolute;
    top: 24%;
+  }
+  @media only screen and (max-height :600px){
+    .logo{
+      top: 35%;
+    }
+    .wheel{
+      top: 75%;
+    }
+    p{
+      top: 65%;
+    }
+  }
+  *{
+    padding: 0;
+    margin: 0;
   }
