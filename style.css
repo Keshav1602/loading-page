@@ -40,7 +40,7 @@ p{
    position: absolute;
    top: 24%;
   }
-@media only screen and (min-height :1400px ){
+@media (max-height :1400px ){
     .logo{
       top: 35%;
     }
